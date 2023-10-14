@@ -6,3 +6,20 @@ This is a bunch of python scripts to handle the equations used in T366 and (poss
   (this was built in 3.12)
 - An IDE that can read python (PyCharm, visual studio code)
 
+## How to Use
+
+### In Pycharm:
+1. In the project, bar, click on the formula you want to use
+2. Right-click/ctrl+click in the body of the script and click Run
+3. Enter the numbers/words for your prompts
+
+### In a terminal
+1. using the cd command, open the T366 folder
+2. use the cd command again to open the folder you want
+2. Use the command: pyhon3 {script name}
+Note: This method doesn't work cause of a bug.
+
+### When answering the "What size" questions
+The answers must match the variable name in the set_size.py file. 
+
+Example: if you want to use micrometers, type the full variable name 'MICROMETERS' into the prompt
