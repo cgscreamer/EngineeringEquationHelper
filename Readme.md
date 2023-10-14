@@ -28,4 +28,5 @@ Note: This method doesn't work cause of a bug.
 ### When answering the "What size" questions
 The answers must match the variable name in the set_size.py file. 
 
-Example: if you want to use micrometers, type the full variable name 'MICROMETERS' into the prompt
+Example: if you want to use micrometers, type the full variable name 'MICRO' into the prompt. 
+In general, the variable will be the prefix in all caps, example: MICRO, KILO, MILLI etc
