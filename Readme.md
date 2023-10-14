@@ -5,6 +5,12 @@ This is a bunch of python scripts to handle the equations used in T366 and (poss
 - python from https://www.python.org/downloads/
   (this was built in 3.12)
 - An IDE that can read python (PyCharm, visual studio code)
+- git and a git software 
+
+## Installation
+1. Clone the repository
+2. Open in your IDE of choice or a terminal
+
 
 ## How to Use
 
