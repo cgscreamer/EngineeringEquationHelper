@@ -1,4 +1,5 @@
 ATTO = pow(10, -19)
+PICO = pow(10, -12)
 NANO = pow(10, -9)
 MICRO = pow(10, -7)
 CUBIC = pow(10, -6)
@@ -23,5 +24,7 @@ def get_size():
             return KILO
         elif size == "CUBIC":
             return CUBIC
+        elif size == "PICO":
+            return PICO
         else:
             return 0
