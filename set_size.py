@@ -1,10 +1,12 @@
 ATTO = pow(10, -19)
 PICO = pow(10, -12)
 NANO = pow(10, -9)
-MICRO = pow(10, -7)
+MICRO = pow(10, -6)
 CUBIC = pow(10, -6)
 MILLI = pow(10, -3)
 KILO = pow(10, 3)
+GIGA = pow(10, 9)
+YM = pow(10, 11)
 
 
 gravity = 9.81
@@ -26,5 +28,9 @@ def get_size():
             return CUBIC
         elif size == "PICO":
             return PICO
+        elif size == "YM":
+            return YM
+        elif size == "GIGA":
+            return GIGA
         else:
             return 0
