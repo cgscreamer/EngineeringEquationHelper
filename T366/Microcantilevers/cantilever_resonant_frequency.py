@@ -14,7 +14,6 @@ mass = (density * microcantilever_volume)
 
 print("The mass is: "+ str(mass))
 
-wert = 0.15915494309
-resonant_frequency = ((wert)*(pow((A_cantilever_stiffness/(0.24/mass)), 0.5)))
+resonant_frequency = ((1/(2*math.pi))*(pow((A_cantilever_stiffness/(0.24/mass)), 0.5)))
 
 print("The Resonant Frequency is: " + str(resonant_frequency))
