@@ -3,6 +3,7 @@ PICO = pow(10, -12)
 NANO = pow(10, -9)
 MICRO = pow(10, -6)
 CUBIC = pow(10, -6)
+Q4A = pow(10, -4)
 MILLI = pow(10, -3)
 KILO = pow(10, 3)
 GIGA = pow(10, 9)
@@ -32,5 +33,7 @@ def get_size():
             return YM
         elif size == "GIGA":
             return GIGA
+        elif size == "Q4A":
+            return Q4A
         else:
             return 0
