@@ -10,7 +10,13 @@ GIGA = pow(10, 9)
 YM = pow(10, 11)
 
 
-gravity = 9.81
+GRAVITY = 9.81
+
+PLANCKS_CONSTANT = 6.634 * pow(10, -34)
+
+SPEED_LIGHT = 3 * pow(10, 8)
+
+ELECTRON_CHARGE = 1.602 * pow(10, -19)
 
 
 def get_size():

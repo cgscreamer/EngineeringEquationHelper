@@ -14,7 +14,7 @@ liquid_surface_tension = Capillary_forces.capillary_length.liquid_surface_tensio
 if capillary_length > height:
     radius = (pow(volume, 0.3))*(pow(((liquid_surface_tension*time)/dynamic_viscosity), 0.1))
 elif capillary_length < height:
-    radius = (pow(volume, 0.375)) * (pow(((liquid_density * set_size.gravity * time) / dynamic_viscosity), 0.125))
+    radius = (pow(volume, 0.375)) * (pow(((liquid_density * set_size.GRAVITY * time) / dynamic_viscosity), 0.125))
 else:
     print("incorrect calculation")
 
